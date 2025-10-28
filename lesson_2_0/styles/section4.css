@@ -32,6 +32,8 @@
 }
 
 details {
+    position: relative;
+    display: block;
     width: 450px;
     margin-top: 1px;
     margin-left: 155px;
@@ -39,16 +41,7 @@ details {
     border-bottom: 1px solid #C2CDD8;
 }
 
-.section4_1{
-    margin-top: 63px;
-}
-
-details span {
-    vertical-align: super;
-}
-
 summary {
-    align-items: center;
     cursor: pointer;
     width: 450px;
     height: 51px;
@@ -87,7 +80,8 @@ details p {
     font-style: normal;
 }
 
-summary img {
+details img {
+    vertical-align: middle;
     margin-left: 12px;
     margin-top: 17px;
     margin-right: 16px;
