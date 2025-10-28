@@ -34,8 +34,10 @@
 details {
     position: relative;
     display: block;
+    align-items: center;
     width: 450px;
     margin-top: 1px;
+    padding-top: 17px;
     margin-left: 155px;
     border-top: 1px solid #C2CDD8;
     border-bottom: 1px solid #C2CDD8;
@@ -43,10 +45,16 @@ details {
 
 summary {
     cursor: pointer;
-    padding-top: 17px;
+    display: flex;
     width: 450px;
     height: 51px;
     list-style: none;
+}
+
+details h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 350px;
     font-size: 21px;
     line-height: 25.2px;
     letter-spacing: 0.2px;
@@ -84,6 +92,8 @@ details p {
 details img {
     margin-left: 12px;
     margin-right: 16px;
+    width: 40px;
+    height: 40px;
 }
 
 .pc {
