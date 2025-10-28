@@ -1,0 +1,76 @@
+.section10 {
+    margin-top: 80px;
+    margin-left: 155px;
+    width: 1130px;
+    height: 370px;
+    background-color: #E6F7FF;
+}
+
+.section10 h1 {
+    padding-top: 63px;
+    margin-left: 64px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    font-family: "Fraunces", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section10 h2 {
+    width: 481px;
+    height: 54px;
+    margin-top: 22px;
+    margin-left: 64px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section10 button {
+    cursor: pointer;
+    background-color: #0070A0;
+    color: #fff;
+    border: none;
+    width: 174px;
+    height: 43px;
+    margin-left: 64px;
+    margin-top: 18px;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section10 ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.section10 li {
+    margin-right: 37px;
+    color: #626A72;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section10 li::before {
+    content: url(../img/marker1.svg);
+    margin-right: 3px;
+}

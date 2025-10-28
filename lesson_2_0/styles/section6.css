@@ -1,0 +1,78 @@
+.section6 {
+    background-color: #0070A0;
+    display: flex;
+    width: 1440px;
+    height: 550px;
+    color: #fff;
+}
+
+.section6 img{
+    margin-top: 80px;
+    margin-left: 215px;
+    margin-right: 187px;
+}
+
+.section6 h1 {
+    width: 403px;
+    height: 101px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    font-family: "Fraunces", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section6 h2 {
+    width: 481px;
+    height: 81px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section6 ul {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section6 li{
+    margin-bottom: 11px;
+}
+
+.section6 li::before {
+    content: url(../img/marker.svg);
+    margin-right: 9px;
+}
+
+.section6 button {
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

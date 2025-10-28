@@ -1,0 +1,164 @@
+.footer {
+    margin-top: 128px;
+    margin-left: 104px;
+    width: 1230px;
+    height: 352px;
+}
+
+.block {
+    display: flex;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #C2CDD8;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.block1 {
+    width: 432.8px;
+    height: 216px;
+}
+
+.block1 img {
+    cursor: pointer;
+}
+
+.block2, .block3, .block4 {
+    margin-left: 16px;
+    width: 216.39px;
+    height: 216px;
+}
+
+.block1 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.powered {
+    margin-top: 0px;
+}
+
+.built {
+    margin-bottom: 0px;
+}
+
+.block1 button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #0070A0;
+    margin-left: 3px;
+    padding: 0px 0px 0px 0px;
+    font-size: 13px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block ul {
+    color: #626A72;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block li {
+    margin-bottom: 10px;
+}
+
+.block h4 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block4 h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block4 p {
+    margin-top: 25px;
+    width: 250px;
+}
+
+.block4 input {
+    cursor: pointer;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    padding-left: 17px;
+    border-bottom: 1px solid #C2CDD8;
+}
+
+.block4 img {
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+.block5 {
+    margin: 0 auto;
+    width: 1130px;
+    height: 35px;
+}
+
+.block5 p {
+    margin-top: 35px;
+    font-size: 13px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block5 button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px;
+    color: #0070A0;
+    font-size: 13px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block5 img {
+    cursor: pointer;
+    float: right;
+    padding-top: 8px;
+    padding-left: 20px;
+}

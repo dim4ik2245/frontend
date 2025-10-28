@@ -1,0 +1,87 @@
+.section8 {
+    display: flex;
+    margin-left: 155px;
+    margin-top: 69px;
+    margin-bottom: 120px;
+    width: 1230px;
+    height: 218px;
+}
+
+.section8 div {
+    margin-right: 64px;
+    width: 234.5px;
+    height: 218px;
+}
+
+.section8 h3 {
+    font-size: 25px;
+    line-height: 31.3px;
+    letter-spacing: 0.2px;
+    font-family: "Fraunces", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section8 p {
+    letter-spacing: 0.2px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.title1 {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    width: 231px;
+    height: 32px;
+}
+
+.title1_1 {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.lightning2 {
+    margin-left: 12px;
+    margin-top: 7px;
+}
+
+.title2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.title2_1 {
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.like {
+    margin-top: 8px;
+}
+
+.title3 {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.title3_1 {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.title4 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.title4_1 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 13px;
+}

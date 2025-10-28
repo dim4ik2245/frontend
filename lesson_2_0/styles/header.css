@@ -1,0 +1,100 @@
+.header {
+width: 1440px;
+height: 75px;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 100;
+font-style: normal;
+color: #33383F;
+display: flex;
+justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 75px;
+}
+
+.button_logo {
+    margin: 0 auto;
+    margin-left: 149px;
+    margin-right: 27px;
+    margin-top: 18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 106px;
+    height: 37px;
+}
+
+
+.menu {
+display: flex;
+list-style-type: none;
+padding-left: 0;
+margin-top: 24px;
+}
+
+.menu button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #33383F;
+}
+
+.menu_button1{
+    width: 64px;
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 24px;
+}
+
+.menu_button2{
+    width: 51px;
+    height: 24px;
+    margin-right: 27px;
+}
+
+.menu_button3{
+    width: 89px;
+    height: 24px;
+    margin-right: 23px;
+}
+
+.menu_button4{
+    width: 42px;
+    height: 26px;
+}
+
+.button_sign_in {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 89px;
+    height: 36px;
+    margin-top: 20px;
+    padding:0px 0px 0px;
+    color: #0070A0;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.book_a_demo1 {
+    border: none;
+    background-color: #0070A0;
+    cursor: pointer;
+    width: 139px;
+    height: 36px;
+    padding: 0 0 0;
+    margin-right: 160px;
+    margin-left: 7px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
