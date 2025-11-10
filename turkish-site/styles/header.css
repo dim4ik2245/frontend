@@ -1,0 +1,91 @@
+.header {
+    padding: 35px 0 0 0;
+    background-image: url(/turkish-site/assets/webp/Rectangle\ 1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    transition: all 0.33s;
+}
+
+.nav-list li:hover {
+    color: var(--bg-button-color);
+}
+
+.header-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 40px 0 40px;
+    border-radius: 5px;
+    border: 1px solid var(--border-button-color);
+    background-color: var(--bg-button-color);
+    color: var(--text-color-button);
+}
+
+.header-block {
+    padding: 0 30px;
+    margin-top: 135px;
+    max-width: 750px;
+}
+
+.header-title {
+    margin: 0 0 20px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+.header-description {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+
+@media (width < 1200px) and (width >1024px) {
+    .header-title {
+        font-size: 56px;
+        line-height: 73.5px;
+    }
+    .header-description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (width < 1024px) {
+    .header-block{
+        text-align: center;
+    }
+    .nav {
+        justify-content: end;
+    }
+    .nav-list {
+        display: none;
+    }
+    .header-title {
+        font-size: 42px;
+        line-height: 57.5px;
+    }
+    .header-description {
+        font-size: 12px;
+        line-height: 23px;
+    }
+}
