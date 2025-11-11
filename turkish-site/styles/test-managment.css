@@ -1,0 +1,29 @@
+.test-managment-section {
+    padding: 70px 40px 80px 40px;
+    background-color: var(--bg-button-color);
+    color: var(--text-color-button);
+}
+
+.test-managment-title {
+    text-align: center;
+}
+
+.test-managment-title h2 {
+    margin: 0;
+    font-size: 56px;
+}
+
+.test-managment-title p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 64px;
+}
+
+.test-managment-grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    font-size: 18px;
+    line-height: 31px;
+}
