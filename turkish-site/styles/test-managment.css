@@ -25,5 +25,31 @@
     grid-template-rows: 1fr;
     align-items: center;
     font-size: 18px;
-    line-height: 31px;
+    line-height: 32px;
+}
+
+@media (width < 1200px) and (width > 1000px) {
+    .test-managment-grid-container{
+        font-size: 14px;
+        line-height: 21.5px;
+    }
+}
+
+@media (width < 1000px) {
+    .test-managment-title h2 {
+        font-size: 36px;
+        line-height: 47px;
+    }
+    .test-managment-title p {
+        font-size: 14px;
+    }
+    .test-managment-grid-container {
+        justify-items: center;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+    }
+    .test-managment-grid-container img {
+        transform: rotate(90deg);
+    }
 }

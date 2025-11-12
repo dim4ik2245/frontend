@@ -1,5 +1,5 @@
 .header {
-    padding: 35px 0 0 0;
+    padding: 35px 20px 0 30px;
     background-image: url(/turkish-site/assets/webp/Rectangle\ 1.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@
 .header-button {
     cursor: pointer;
     padding: 10px 20px;
-    margin: 0 40px 0 40px;
+    margin: 0 0 0 40px;
     border-radius: 5px;
     border: 1px solid var(--border-button-color);
     background-color: var(--bg-button-color);
@@ -39,7 +39,6 @@
 }
 
 .header-block {
-    padding: 0 30px;
     margin: 135px 0 50px;
     max-width: 750px;
 }
@@ -60,9 +59,8 @@
 }
 
 .input-button-container {
-    width: 502px;
+    max-width: 502px;
     height: 73px;
-    margin-left: 30px;
     font-size: 16px;
     font-weight: 500;
     line-height: 36px;
@@ -105,6 +103,9 @@
 }
 
 @media (width < 1000px) {
+    .header{
+        padding: 35px 10px 0 10px;
+    }
     .header-block{
         text-align: center;
     }
@@ -123,7 +124,6 @@
         line-height: 23px;
     }
     .input-button-container{
-        width: 355px;
         height: 60px;
         font-size: 14px;
     }
