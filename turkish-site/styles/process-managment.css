@@ -31,7 +31,6 @@
 
 .process-managment-button {
     margin: 0;
-    border: transparent;
     padding: 12px 58px;
 }
 
@@ -59,7 +58,7 @@
 @media (width < 1000px) {
     .process-managment {
         padding: 90px 20px 90px 20px;
-}
+    }
     .process-managment-block {
         flex-direction: column;
         align-items: center;
