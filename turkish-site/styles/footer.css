@@ -22,3 +22,48 @@
         }
     }
 }
+
+.footer-flex-block-copyright {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    & > .copyright-text h2 {
+        margin: 0;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 500;
+        color: var(--text-footer-color);
+    }
+}
+.socials {
+    display: flex;
+    gap: 16px;
+}
+
+@media (width < 1200px) and (width > 1000px) {
+    .footer {
+        padding: 80px 60px 70px 60px;
+    }
+}
+
+@media (width < 1000px) {
+    .footer {
+        padding: 80px 77px 77px 20px;
+    }
+    .footer-flex-block {
+        flex-direction: column;
+        & > .text-block {
+            margin-top: 50px;
+        }
+        & > .text-block:nth-child(1) {
+            margin: 0;
+        }
+    }
+    .footer-flex-block-copyright {
+        flex-direction: column;
+        .copyright-text {
+            order: 2;
+            margin-top: 60px;
+        }
+    }
+}
