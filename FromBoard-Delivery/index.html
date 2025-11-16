@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>FromBoard Delivery</title>
+</head>
+<body>
+    <header class="py-6 px-15">
+        <div class="container mx-auto">
+            <div class="flex justify-between text-gray-900">
+                <div class="flex items-center">
+                    <img src="assets/fromboard-logo.png" alt="FromBoard Delivery Logo">
+                    <p class="text-2xl font-black max-md:text-lg">FromBoard Delivery</p>
+                </div>
+                <div class="ml-auto border-r-1 border-r-purple-400 pr-2 text-base text-right max-lg:hidden">
+                    <p>Доставляем товары из заграницы в Россию</p>
+                    <p>Стоимость от 550 рублей за заказ</p>
+                    <p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
+                </div>
+                <div class="pl-2 max-md:py-6 max-md:flex">
+                    <p class="text-4xl font-black max-2xl:text-3xl max-xl:text-2xl max-md:text-xl">+7 (800) 123 45-67</p>
+                    <svg class="self-center ml-4 min-2xl:hidden" width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1122_2373)">
+                            <rect width="24" height="4" rx="2" fill="#A78BFA"/>
+                            <rect y="6" width="24" height="4" rx="2" fill="#A78BFA"/>
+                            <rect y="12" width="24" height="4" rx="2" fill="#A78BFA"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1122_2373">
+                                <rect width="24" height="16" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <p class="text-2xl font-light max-2xl:text-xl max-xl:text-base max-md:hidden">Звонки по России бесплатные</p>
+                </div>
+            </div>
+            <div class="flex justify-between items-center py-3 mt-8 max-lg:border-y-2 border-purple-400 max-md:hidden">
+                <nav>
+                    <ul class="flex gap-2">
+                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Калькулятор</li>
+                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">О нас</li>
+                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Гарантии</li>
+                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Отзывы</li>
+                    </ul>
+                </nav>
+                <button class="bg-purple-500 px-7 py-3 rounded-sm text-gray-50 font-bold cursor-pointer">Оставить заявку</button>
+            </div>
+            <div class="flex justify-between text-sm text-center gap-2 min-lg:hidden max-md:hidden">
+                <p class="max-w-58 px-10">Доставляем товары из заграницы в Россию</p>
+                <p class="max-w-58 px-10">Стоимость от 550 рублей за заказ</p>
+                <p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- <main class="bg-gray-200">
+        <div class="container mx-auto">
+            <section class="py-18">
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <h2 class="text-4xl font-black tracking-wide">Без проблемная доставка купленных вещей из США, Европы и Азии в Россию</h2>
+                        <p class="pt-3 text-xl">Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в России</p>
+                        <img src="assets/Rectangle 2.png" alt="Rectangle" class="pt-4">
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl text-center pt-6">
+                        <h2 class="text-3xl font-bold">Калькулятор доставки</h2>
+                        <p class="pt-4 font-base max-w-89 mx-auto">Посчитайте, сколько будет стоить перевозка покупки из зарубежа</p>
+                        <div class="grid grid-cols-6 gap-6 py-6">
+                            <div class="col-span-6 col-start-2 col-end-6 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Имя" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-2 col-end-4 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Почта" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-4 col-end-6 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Телефон" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-2 col-end-4 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Общая площадь, м²" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-4 col-end-6 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Вес, кг" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-2 col-end-4 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Страна покупки" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-4 col-end-6 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Город покупки" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-2 col-end-4 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Область доставки" class="w-full p-3">
+                            </div>
+                            <div class="col-span-3 col-start-4 col-end-6 w-full border-2 border-gray-900 border-solid rounded-sm">
+                                <input type="text" placeholder="Город доставки" class="w-full p-3">
+                            </div>
+                            <div class="col-span-6 col-start-2 col-end-6 w-full">
+                                <button class="bg-purple-500 w-full py-3 rounded-sm text-gray-50 font-bold cursor-pointer">Заказать расчёт</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pb-18">
+                <h2 class="text-center text-3xl font-black pb-6">Наши преимущества</h2>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="flex p-6">
+                        <img src="assets/Board.png" alt="Board" class="pr-3">
+                        <div>
+                            <h3 class="text-2xl font-black pb-3">Растоможка груза</h3>
+                            <p class="text-sm">Мы берём на себя все формальности и бумажную волокиту, связанную с растаможкой груза</p>
+                        </div>
+                    </div>
+                    <div class="flex p-6">
+                        <img src="assets/Package.png" alt="Package" class="pr-3">
+                        <div>
+                            <h3 class="text-2xl font-black pb-3">Надёжная упаковка</h3>
+                            <p class="text-sm">Все товары упаковываются нашими специалистами с особым вниманием к деталям, гарантируя, что они дойдут в безопасности и в отличном состоянии</p>
+                        </div>
+                    </div>
+                    <div class="flex p-6">
+                        <img src="assets/Delivery.png" alt="Delivery" class="pr-3">
+                        <div>
+                            <h3 class="text-2xl font-black pb-3">Быстро и выгодно</h3>
+                            <p class="text-sm">Мы предлагаем быструю и выгодную доставку, чтобы вы могли насладиться покупками как можно скорее.</p>
+                        </div>
+                    </div>
+                    <div class="flex p-6">
+                        <img src="assets/best support.png" alt="best support" class="pr-3">
+                        <div>
+                            <h3 class="text-2xl font-black pb-3">Удобный сервис</h3>
+                            <p class="text-sm">Стремимся сделать процесс доставки максимально удобным для вас, чтобы опыт остался приятным и беззаботным</p>
+                        </div>
+                    </div>
+                    <div class="flex p-6">
+                        <img src="assets/clear info.png" alt="clear info" class="pr-3">
+                        <div>
+                            <h3 class="text-2xl font-black pb-3">Прозрачность работы</h3>
+                            <p class="text-sm">Мы предоставляем полный контроль над каждым этапом доставки, от момента заказа до момента прибытия заказа</p>
+                        </div>
+                    </div>
+                    <div class="flex p-6">
+                        <img src="assets/garantee.png" alt="garantee" class="pr-3">
+                        <div>
+                            <h3 class="text-2xl font-black pb-3">Страхование груза</h3>
+                            <p class="text-sm">Наше страхование обеспечивает полную защиту и покрытие почти все неприятные и неожиданные ситуации</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="text-center">
+                    <h2 class="text-3xl font-black pb-3">Гарантии качества</h2>
+                    <p class="text-base mx-auto max-w-189 pb-6">Наши гарантии качества включают в себя полный спектр документов, необходимых для ввоза и вывоза товаров, а также для успешного бизнеса на мировом рынке. Мы предоставляем вам надёжность и уверенность</p>
+                    <div class="grid grid-cols-4 pb-7">
+                        <div>
+                            <img src="assets/Rectangle 3.png" alt="Rectangle" class="pb-1">
+                            <p class="text-lg font-black">Свидетельство о регистрации в РФ</p>
+                        </div>
+                        <div>
+                            <img src="assets/Rectangle 4.png" alt="Rectangle" class="pb-1">
+                            <p class="text-lg font-black">Свидетельство о регистрации в США</p>
+                        </div>
+                        <div>
+                            <img src="assets/Rectangle 5.png" alt="Rectangle" class="pb-1">
+                            <p class="text-lg font-black">Свидетельство о регистрации в Китае</p>
+                        </div>
+                        <div>
+                            <img src="assets/Rectangle 6.png" alt="Rectangle" class="pb-1">
+                            <p class="text-lg font-black">Свидетельство о регистрации в Великобритании</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="bg-purple-500 mt-9 px-7 py-4 rounded-sm text-gray-50 font-bold cursor-pointer">Показать больше документов</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main> -->
+</body>
+</html>
