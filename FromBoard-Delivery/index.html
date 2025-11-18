@@ -12,42 +12,51 @@
             <div class="flex justify-between text-gray-900">
                 <div class="flex items-center">
                     <img src="assets/fromboard-logo.png" alt="FromBoard Delivery Logo">
-                    <p class="text-2xl font-black max-md:text-lg">FromBoard Delivery</p>
+                    <p class="md:max-2xl:text-2xl font-black md:text-lg">FromBoard Delivery</p>
                 </div>
                 <div class="ml-auto border-r-1 border-r-purple-400 pr-2 text-base text-right max-lg:hidden">
-                    <p>Доставляем товары из заграницы в Россию</p>
-                    <p>Стоимость от 550 рублей за заказ</p>
-                    <p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
+                    <p class="text-sm">Доставляем товары из заграницы в Россию</p>
+                    <p class="text-sm">Стоимость от 550 рублей за заказ</p>
+                    <p class="text-sm">1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
                 </div>
                 <div class="pl-2 max-md:py-6 max-md:flex">
                     <p class="text-4xl font-black max-2xl:text-3xl max-xl:text-2xl max-md:text-xl">+7 (800) 123 45-67</p>
-                    <svg class="self-center ml-4 min-2xl:hidden" width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1122_2373)">
-                            <rect width="24" height="4" rx="2" fill="#A78BFA"/>
-                            <rect y="6" width="24" height="4" rx="2" fill="#A78BFA"/>
-                            <rect y="12" width="24" height="4" rx="2" fill="#A78BFA"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_1122_2373">
-                                <rect width="24" height="16" fill="white"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
+                    <button class="block md:hidden py-1 px-3 mx-1 rounded focus:outline-none group">
+                        <div class="w-6 h-1 bg-purple-400 mb-0.5 rounded"></div>
+                        <div class="w-6 h-1 bg-purple-400 mb-0.5 rounded"></div>
+                        <div class="w-6 h-1 bg-purple-400 rounded"></div>
+                        <div class="absolute top-28 -left-0 w-screen bg-white opacity-0 group-focus:top-28 group-focus:opacity-100 transition-all duration-300">
+                            <div class="container mx-auto">
+                                <ul class="flex items-center px-6 gap-x-6 w-full text-base cursor-pointer border-y-2 border-purple-400 py-3">
+                                    <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Калькулятор</li>
+                                    <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">О нас</li>
+                                    <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Гарантии</li>
+                                    <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Отзывы</li>
+                                    <li class="text-base font-bold px-7 py-3 rounded-sm text-gray-50 bg-purple-500 ml-auto">Оставить заявку</li>
+                                </ul>
+                                <div class="flex justify-between text-sm py-3">
+                                    <p class="max-w-46">Доставляем товары из заграницы в Россию</p>
+                                    <p class="max-w-46">Стоимость от 550 рублей за заказ</p>
+                                    <p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
                     <p class="text-2xl font-light max-2xl:text-xl max-xl:text-base max-md:hidden">Звонки по России бесплатные</p>
                 </div>
             </div>
             <div class="flex justify-between items-center py-3 mt-8 max-lg:border-y-2 border-purple-400 max-md:hidden">
                 <nav>
                     <ul class="flex gap-2">
-                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Калькулятор</li>
-                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">О нас</li>
-                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Гарантии</li>
-                        <li class="text-base cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Отзывы</li>
+                        <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Калькулятор</li>
+                        <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">О нас</li>
+                        <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Гарантии</li>
+                        <li class="text-base font-bold cursor-pointer hover:text-purple-500 hover:border-b border-dashed transition-all">Отзывы</li>
                     </ul>
                 </nav>
-                <button class="bg-purple-500 px-7 py-3 rounded-sm text-gray-50 font-bold cursor-pointer">Оставить заявку</button>
+                <button class="bg-purple-500 px-7 py-3 rounded-sm text-gray-50 text-base font-bold cursor-pointer">Оставить заявку</button>
             </div>
-            <div class="flex justify-between text-sm text-center gap-2 min-lg:hidden max-md:hidden">
+            <div class="flex justify-between text-sm text-center gap-2 pt-3 px-7 items-center min-lg:hidden max-md:hidden">
                 <p class="max-w-58 px-10">Доставляем товары из заграницы в Россию</p>
                 <p class="max-w-58 px-10">Стоимость от 550 рублей за заказ</p>
                 <p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
@@ -55,14 +64,16 @@
         </div>
     </header>
 
-    <!-- <main class="bg-gray-200">
+    <main class="bg-gray-200">
         <div class="container mx-auto">
-            <section class="py-18">
-                <div class="grid grid-cols-2 gap-6">
-                    <div>
-                        <h2 class="text-4xl font-black tracking-wide">Без проблемная доставка купленных вещей из США, Европы и Азии в Россию</h2>
-                        <p class="pt-3 text-xl">Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в России</p>
-                        <img src="assets/Rectangle 2.png" alt="Rectangle" class="pt-4">
+            <section class="py-18 xl:max-2xl:py-12">
+                <div class="grid grid-cols-2 gap-6 sm:max-2xl:flex sm:max-2xl:flex-col">
+                    <div class="sm:max-2xl:flex sm:max-xl:flex-col">
+                        <div class="mx-auto xl:max-2xl:justify-between xl:max-2xl:max-w-126">
+                            <h2 class="text-4xl font-black tracking-wide xl:max-2xl:text-3xl">Без проблемная доставка купленных вещей из США, Европы и Азии в Россию</h2>
+                            <p class="pt-3 text-xl">Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в России</p>
+                        </div>
+                        <img src="assets/Rectangle 2.png" alt="Rectangle" class="pt-4 xl:max-2xl:max-w-126 sm:max-lg:max-w-189">
                     </div>
                     <div class="bg-gray-50 rounded-2xl text-center pt-6">
                         <h2 class="text-3xl font-bold">Калькулятор доставки</h2>
@@ -103,7 +114,7 @@
                 </div>
             </section>
 
-            <section class="pb-18">
+            <!-- <section class="pb-18">
                 <h2 class="text-center text-3xl font-black pb-6">Наши преимущества</h2>
                 <div class="grid grid-cols-3 gap-6">
                     <div class="flex p-6">
@@ -178,7 +189,7 @@
                     </div>
                 </div>
             </section>
-        </div>
-    </main> -->
+        </div> -->
+    </main>
 </body>
 </html>
